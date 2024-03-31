@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_chatgpt"
+        android:icon="@drawable/ic_page_openai"
+        android:title="@string/title_chatgpt" />
+
+    <item
+        android:id="@+id/navigation_storage"
+        android:icon="@drawable/ic_page_storage"
+        android:title="@string/title_storage" />
+
+</menu>

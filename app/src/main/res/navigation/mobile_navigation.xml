@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_chatgpt">
+
+    <fragment
+        android:id="@+id/navigation_chatgpt"
+        android:name="com.example.cmpe277_app5.ui.ChatgptFragment"
+        android:label="@string/title_chatgpt"
+        tools:layout="@layout/fragment_chatgpt" />
+
+    <fragment
+        android:id="@+id/navigation_storage"
+        android:name="com.example.cmpe277_app5.ui.StorageFragment"
+        android:label="@string/title_storage"
+        tools:layout="@layout/fragment_storage" />
+
+</navigation>

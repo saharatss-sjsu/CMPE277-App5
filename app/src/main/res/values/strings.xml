@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CMPE277-App5</string>
+    <string name="title_chatgpt">ChatGPT</string>
+    <string name="title_storage">Storage</string>
+</resources>
